@@ -1,4 +1,4 @@
-const getAlphaNumericAlphabet = require("../2")
+const getSpanishAlphabet = require("../2")
 
 describe("Exercise 3", () => {
   it("returns the Spanish alphabet", () => {
