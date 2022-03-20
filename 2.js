@@ -8,8 +8,8 @@ Given an array containing the english alphabet, write code that returns an array
 
 function getAlphaNumericAlphabet(){
   const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-  let alphaNumericAlphabet = Array();
-  let numericList = Array();
+  let alphaNumericAlphabet = [];
+  let numericList = [];
 
   // Your code here
   // Build an array of 0-9
@@ -19,7 +19,7 @@ function getAlphaNumericAlphabet(){
   //add alphabet onto the end of 0-9 array
   alphaNumericAlphabet = [...numericList, ...alphabet]
 
-  //add an amersand to the end
+  //add an ampersand to the end
   alphaNumericAlphabet.push("&");
 
   return alphaNumericAlphabet
