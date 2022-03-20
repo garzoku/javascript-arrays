@@ -40,7 +40,6 @@ function getVowels(){
         break;
     }
   }
-  console.log(vowels)
   return vowels
 }
 

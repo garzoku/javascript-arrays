@@ -21,8 +21,6 @@ function getAlphaNumericAlphabet(){
 
   //add an amersand to the end
   alphaNumericAlphabet.push("&");
-  // Print my array to the command line and check myself. This test is kicking my ass
-  console.log(alphaNumericAlphabet);
 
   return alphaNumericAlphabet
 }
